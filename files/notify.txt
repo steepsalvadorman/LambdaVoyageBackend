@@ -1,0 +1,10 @@
+At 2023-11-25T15:26:12.138573200 new request Hotel request, with size page 3 and order UPPER
+At 2023-11-25T15:26:15.229148100 new request Fly request, with size page 5 and order LOWER
+At 2023-11-25T15:28:05.358326300 new GET fly, with size page 5 and order LOWER
+At 2023-11-25T15:28:06.389049700 new GET fly, with size page 5 and order LOWER
+At 2023-11-25T15:28:09.512736600 new GET hotel, with size page 3 and order UPPER
+At 2023-11-25T15:28:10.262701800 new GET hotel, with size page 3 and order UPPER
+At 2023-11-25T23:28:19.254226300 new GET fly, with size page 5 and order LOWER
+At 2023-11-25T23:42:14.966662900 new GET hotel, with size page 3 and order UPPER
+At 2023-11-25T23:42:23.556879100 new GET fly, with size page 5 and order LOWER
+At 2023-11-25T23:50:40.691916200 new GET fly, with size page 5 and order LOWER
