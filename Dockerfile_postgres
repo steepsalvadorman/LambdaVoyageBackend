@@ -1,0 +1,14 @@
+# Dockerfile for PostgreSQL service
+FROM postgres:latest
+
+# Copy SQL files to initialize the database
+COPY ./db/sql/create_schema.sql /docker-entrypoint-initdb.d/create_schema.sql
+COPY ./db/sql/data.sql /docker-entrypoint-initdb.d/data.sql
+
+# Set environment variables
+ENV POSTGRES_DB=lambda_voyage
+ENV POSTGRES_USER=steep
+ENV POSTGRES_PASSWORD=lambdavoyage
+
+# Expose port
+EXPOSE 5432
