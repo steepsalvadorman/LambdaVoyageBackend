@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @OpenAPIDefinition(
-        info = @Info(title = "Best Travel API",
+        info = @Info(title = "Lambda Voyage API",
                 version = "1.0",
                 description = "Documentation for endpoints in LambdaVoyage")
 )
