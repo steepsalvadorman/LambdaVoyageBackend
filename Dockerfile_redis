@@ -1,8 +1,0 @@
-# Dockerfile for Redis service
-FROM redis:6.2-alpine
-
-# Set Redis password and log level
-CMD ["redis-server", "--loglevel", "warning", "--requirepass", "password"]
-
-# Expose port
-EXPOSE 6379
